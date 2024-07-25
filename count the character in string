@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] arg){
+        int count=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the String");
+         String str =sc.nextLine();
+         for(int i=0;i<str.length();i++){
+             System.out.print(str.charAt(i)+" ");
+             count=count+1;
+         }
+         System.out.println();
+         System.out.println(count);
+    }
+}
+/*
+output:
+Enter the String:karthikeyon
+k a r t h i k e y o n 
+11
+*/
